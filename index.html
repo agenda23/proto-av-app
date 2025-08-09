@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VJ風Webアプリケーション</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- p5.js CDN (including p5.sound) - Vite compatible -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
+</head>
+<body>
+    <div id="app">
+        <!-- 3D canvas (Three.js) -->
+        <canvas id="three-canvas"></canvas>
+        
+        <!-- 2D canvas (p5.js) - overlay -->
+        <div id="p5-container"></div>
+        
+        <!-- UI Elements -->
+        <div id="ui">
+            <div id="scene-info">Scene: Loading...</div>
+            <div id="bpm-info">BPM: 128</div>
+        </div>
+    </div>
+    
+    <script type="module" src="main.js"></script>
+</body>
+</html>

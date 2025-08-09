@@ -1,0 +1,28 @@
+{
+  "name": "proto-av-app",
+  "version": "0.1.0",
+  "description": "VJ風Webアプリケーション - Interactive Audio-Visual Experience",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "serve": "vite dev --open"
+  },
+  "devDependencies": {
+    "vite": "^7.1.1"
+  },
+  "dependencies": {
+    "three": "^0.160.0"
+  },
+  "keywords": [
+    "vj",
+    "audio-visual",
+    "threejs",
+    "p5js",
+    "web-audio",
+    "interactive"
+  ],
+  "author": "VJ App Developer",
+  "license": "MIT"
+}
