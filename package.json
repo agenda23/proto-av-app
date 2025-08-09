@@ -1,7 +1,7 @@
 {
   "name": "proto-av-app",
   "version": "0.1.0",
-  "description": "VJ風Webアプリケーション - Interactive Audio-Visual Experience",
+  "description": "gen-app - Interactive Audio-Visual Experience",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -23,6 +23,6 @@
     "web-audio",
     "interactive"
   ],
-  "author": "VJ App Developer",
+  "author": "App Developer",
   "license": "MIT"
 }

@@ -1,4 +1,4 @@
-// VJ風Webアプリケーション メインファイル
+// gen-app メインファイル
 import * as THREE from 'three';
 
 // アプリケーション状態
@@ -110,7 +110,7 @@ let audioEngine = {
 
 // メイン初期化関数
 function init() {
-    console.log('VJ風Webアプリケーション 初期化開始...');
+    console.log('gen-app 初期化開始...');
     
     // Three.js初期化
     initThreeJS();
@@ -1130,7 +1130,7 @@ function drawVJPanel(p) {
         
         p.pop();
     } catch (e) {
-        console.warn('VJパネル描画エラー:', e);
+        console.warn('パネル描画エラー:', e);
     }
 }
 
@@ -1565,7 +1565,7 @@ function handleUIClick(p, x, y) {
         return true;
     }
     
-    // VJパネル領域内かチェック
+    // パネル領域内かチェック
     if (x >= 20 && x <= 220 && y >= 20 && y <= 170) {
         
         // シーンボタンのクリック判定
@@ -1653,7 +1653,7 @@ function handleKeyPress(event) {
         case 'D':
             changeBPM(1); // 1ずつ変化に修正
             break;
-        // VJ操作キー
+        // 操作キー
         case 'q':
         case 'Q':
             adjustEffect('reverb', -0.1);
